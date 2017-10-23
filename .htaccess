@@ -1,0 +1,12 @@
+RewriteEngine On
+
+#RewriteRule ^(.*)\.html$ /temp/LFCLF/www/index.php5?path=$1 [QSA,L]
+#RewriteCond %{REQUEST_URI} ^/(style)
+#RewriteRule (.*/)+(images)(/.*)$ /$2$3 [L]
+#RewriteCond %{REQUEST_URI} ^/(style)
+#RewriteRule (.*/)+(style)(/.*)$ /$2$3 [L]
+
+RewriteRule bien-etre-pour-votre-chien.html$ index.html#bien-etre [QSA,L]
+RewriteRule contacts.html$ index.html#contact [QSA,L]
+Rewriterule horaires-ouverture.html$ index.html#horaires [QSA,L]
+#RewriteRule ^(.*)\.html$ /index.php5?path=$1 [QSA,L]
